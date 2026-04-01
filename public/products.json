@@ -1,122 +1,122 @@
 [
   {
     "id": 1,
-    "name": "Fitness Trainer Pro",
-    "description": "Personalized workout plans and fitness tracking at your fingertips.",
-    "price": 20,
+    "name": "MindBoost AI",
+    "description": "Enhance your memory and focus with personalized brain exercises.",
+    "price": 22,
     "period": "Monthly",
-    "tag": "Trending",
-    "tagType": "warning",
+    "tag": "Cognitive",
+    "tagType": "primary",
     "features": [
-      { "id": 101, "text": "Custom workout plans" },
-      { "id": 102, "text": "Calorie tracker" },
-      { "id": 103, "text": "Progress analytics" }
+      { "id": 101, "text": "Daily brain workouts" },
+      { "id": 102, "text": "Focus tracking" },
+      { "id": 103, "text": "Progress reports" }
     ],
-    "icon": "🏋️"
+    "icon": "🧠"
   },
   {
     "id": 2,
-    "name": "Language Learning Hub",
-    "description": "Learn new languages quickly with AI-powered lessons.",
-    "price": 15,
+    "name": "EcoHome Tracker",
+    "description": "Monitor and reduce your home energy consumption easily.",
+    "price": 17,
     "period": "Monthly",
-    "tag": "Popular",
-    "tagType": "secondary",
+    "tag": "Sustainable",
+    "tagType": "success",
     "features": [
-      { "id": 201, "text": "30+ languages" },
-      { "id": 202, "text": "Voice practice" },
-      { "id": 203, "text": "Daily challenges" }
+      { "id": 201, "text": "Energy usage dashboard" },
+      { "id": 202, "text": "Carbon footprint tracking" },
+      { "id": 203, "text": "Tips to save energy" }
     ],
-    "icon": "🌍"
+    "icon": "🌱"
   },
   {
     "id": 3,
-    "name": "Smart Budget Planner",
-    "description": "Track expenses and manage your finances efficiently.",
-    "price": 10,
+    "name": "StoryTime Creator",
+    "description": "Write and illustrate your own interactive stories for kids.",
+    "price": 14,
     "period": "Monthly",
-    "tag": "Essential",
-    "tagType": "success",
+    "tag": "Creative",
+    "tagType": "warning",
     "features": [
-      { "id": 301, "text": "Expense tracking" },
-      { "id": 302, "text": "Savings goals" },
-      { "id": 303, "text": "Reports & insights" }
+      { "id": 301, "text": "Story templates" },
+      { "id": 302, "text": "Illustration tools" },
+      { "id": 303, "text": "Share with friends" }
     ],
-    "icon": "💰"
+    "icon": "📖"
   },
   {
     "id": 4,
-    "name": "Online Course Builder",
-    "description": "Create and sell your own courses بسهولة.",
-    "price": 60,
-    "period": "One-Time",
-    "tag": "Creator",
-    "tagType": "primary",
+    "name": "Virtual Study Room",
+    "description": "Collaborate with students worldwide in virtual study spaces.",
+    "price": 8,
+    "period": "Monthly",
+    "tag": "Education",
+    "tagType": "secondary",
     "features": [
-      { "id": 401, "text": "Drag & drop builder" },
-      { "id": 402, "text": "Payment integration" },
-      { "id": 403, "text": "Student dashboard" }
+      { "id": 401, "text": "Group video study rooms" },
+      { "id": 402, "text": "Shared notes" },
+      { "id": 403, "text": "Task timers" }
     ],
-    "icon": "🎓"
+    "icon": "🖥️"
   },
   {
     "id": 5,
-    "name": "Travel Planner AI",
-    "description": "Plan trips with smart recommendations and itineraries.",
-    "price": 25,
+    "name": "PetCare Tracker",
+    "description": "Keep track of your pets’ health, appointments, and diet.",
+    "price": 12,
     "period": "Monthly",
-    "tag": "Adventure",
-    "tagType": "warning",
+    "tag": "Pets",
+    "tagType": "success",
     "features": [
-      { "id": 501, "text": "Custom itineraries" },
-      { "id": 502, "text": "Budget planning" },
-      { "id": 503, "text": "Local guides" }
+      { "id": 501, "text": "Vaccination reminders" },
+      { "id": 502, "text": "Diet and nutrition plans" },
+      { "id": 503, "text": "Activity log" }
     ],
-    "icon": "✈️"
+    "icon": "🐾"
   },
   {
     "id": 6,
-    "name": "Music Production Studio",
-    "description": "Create beats and music tracks from your browser.",
-    "price": 35,
+    "name": "AI Travel Guide",
+    "description": "Discover hidden gems and plan trips with AI recommendations.",
+    "price": 28,
     "period": "Monthly",
-    "tag": "Creative",
-    "tagType": "secondary",
+    "tag": "Explorer",
+    "tagType": "warning",
     "features": [
-      { "id": 601, "text": "Loop library" },
-      { "id": 602, "text": "Audio mixing tools" },
-      { "id": 603, "text": "Export in MP3/WAV" }
+      { "id": 601, "text": "Personalized trip suggestions" },
+      { "id": 602, "text": "Offline maps" },
+      { "id": 603, "text": "Expense tracking" }
     ],
-    "icon": "🎧"
+    "icon": "🗺️"
   },
   {
     "id": 7,
-    "name": "Home Workout Kit",
-    "description": "Everything you need to stay fit at home.",
-    "price": 80,
+    "name": "Artisan Market",
+    "description": "Buy and sell handmade goods from local creators.",
+    "price": 50,
     "period": "One-Time",
-    "tag": "Best Value",
-    "tagType": "secondary",
+    "tag": "Marketplace",
+    "tagType": "primary",
     "features": [
-      { "id": 701, "text": "Resistance bands" },
-      { "id": 702, "text": "Workout guide" },
-      { "id": 703, "text": "Video tutorials" }
+      { "id": 701, "text": "Secure payments" },
+      { "id": 702, "text": "Seller dashboards" },
+      { "id": 703, "text": "Curated collections" }
     ],
-    "icon": "🏠"
+    "icon": "🛍️"
   },
   {
     "id": 8,
-    "name": "Recipe Master App",
-    "description": "Discover and cook delicious recipes بسهولة.",
-    "price": 12,
+    "name": "Zen Garden App",
+    "description": "Relax and unwind with interactive virtual gardens and meditation.",
+    "price": 10,
     "period": "Monthly",
-    "tag": "Foodie",
+    "tag": "Relaxation",
     "tagType": "success",
     "features": [
-      { "id": 801, "text": "1000+ recipes" },
-      { "id": 802, "text": "Meal planner" },
-      { "id": 803, "text": "Shopping list generator" }
+      { "id": 801, "text": "Customizable gardens" },
+      { "id": 802, "text": "Guided meditation" },
+      { "id": 803, "text": "Ambient sounds" }
     ],
-    "icon": "🍳"
+    "icon": "🌸"
   }
 ]
