@@ -21,7 +21,7 @@ const CartContainer = ({ cart, onRemove, onCheckout }) => {
       <div className="bg-white p-6 md:p-10 rounded-[3rem] border border-gray-100 shadow-xl shadow-slate-100/50">
         <div className="flex items-center justify-between mb-10">
           <h2 className="text-3xl font-black text-slate-900">Your Cart</h2>
-          <span className="bg-indigo-50 text-indigo-600 px-4 py-1 rounded-full font-bold text-sm">
+          <span className="bg-indigo-50 text-indigo-500 px-4 py-1 rounded-full font-bold text-sm">
             {cart.length} {cart.length === 1 ? 'Item' : 'Items'}
           </span>
         </div>
@@ -40,7 +40,7 @@ const CartContainer = ({ cart, onRemove, onCheckout }) => {
                 <div>
                   <h4 className="font-bold text-xl text-slate-800 leading-tight">{item.name}</h4>
                   <div className="flex items-center gap-2 mt-1">
-                    <span className="text-[#4f39f6] font-black text-lg">${item.price}</span>
+                    <span className="text-[#462ff8] font-black text-lg">${item.price}</span>
                     <span className="text-slate-400 text-sm font-medium">/ {item.period}</span>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ const CartContainer = ({ cart, onRemove, onCheckout }) => {
           
           <button 
             onClick={onCheckout}
-            className="group relative w-full overflow-hidden rounded-2xl bg-[#4f39f6] h-20 text-white shadow-2xl shadow-indigo-200 transition-all active:scale-[0.98]"
+            className="group relative w-full overflow-hidden rounded-2xl bg-[#452ef2] h-20 text-white shadow-2xl shadow-indigo-200 transition-all active:scale-[0.98]"
           >
             <div className="absolute inset-0 bg-linear-to-r from-indigo-500 to-purple-600 group-hover:opacity-90 transition-opacity" />
             <div className="relative flex items-center justify-center gap-3 text-xl font-black">

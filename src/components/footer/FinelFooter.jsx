@@ -8,7 +8,7 @@ const FinelFooter = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-12 w-full text-center lg:text-left">
                     
                     <div className="sm:col-span-2 lg:col-span-2 flex flex-col items-center lg:items-start space-y-6">
-                        <div className="bg-linear-to-r from-indigo-500 to-purple-600 p-2 rounded-xl inline-block shadow-2xl">
+                        <div className="bg-linear-to-r from-indigo-400 to-purple-500 p-2 rounded-xl inline-block shadow-2xl">
                             <h2 className="text-3xl font-black text-white px-2">DigiTools</h2>
                         </div>
                         <p className="text-gray-400 leading-relaxed max-w-sm text-lg font-medium">
@@ -29,7 +29,7 @@ const FinelFooter = () => {
                             </h3>
                             <ul className="space-y-4 text-gray-400">
                                 {group.links.map(link => (
-                                    <li key={link} className="hover:text-indigo-400 hover:translate-x-1 transition-all duration-300 cursor-pointer text-base">
+                                    <li key={link} className="hover:text-indigo-450 hover:translate-x-1 transition-all duration-300 cursor-pointer text-base">
                                         {link}
                                     </li>
                                 ))}
@@ -45,7 +45,7 @@ const FinelFooter = () => {
                             <div className="tooltip tooltip-bottom" data-tip="Instagram">
                                 <button className="btn btn-circle bg-white border-none shadow-lg 
                                                 transition-all duration-500 ease-in-out
-                                                hover:bg-linear-to-tr hover:from-[#f09433] hover:via-[#dc2743] hover:to-[#bc1888]
+                                                hover:bg-linear-to-tr hover:from-[#cc7921] hover:via-[#f3425c] hover:to-[#d41497]
                                                 hover:scale-125 hover:rotate-12 group">
                                     <img 
                                         src="https://i.ibb.co.com/HLKPFwNk/Instagram.png" 
@@ -57,7 +57,7 @@ const FinelFooter = () => {
                             <div className="tooltip tooltip-bottom" data-tip="Facebook">
                                 <button className="btn btn-circle bg-white border-none shadow-lg 
                                                 transition-all duration-500 ease-in-out
-                                                hover:bg-[#1877F2]
+                                                hover:bg-[#226fd4]
                                                 hover:scale-125 hover:-rotate-12 group">
                                     <img 
                                         src="https://i.ibb.co.com/0p49QbRD/Facebook.png" 
